@@ -14,7 +14,7 @@ import com.example.Comment.Service.CommentService;
 @RestController
 @RequestMapping("/comment")
 public class CommentController {
-	
+//	http://localhost:8081/comment/save
 	@Autowired
 	private CommentService commentService;
 	
